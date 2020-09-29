@@ -1,5 +1,13 @@
 @import url('/css/colors.css');
 
+/*----------------- local ----------------------*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 html{
     margin: 0px;
     padding: 0px;
@@ -15,52 +23,6 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container{
-    width:auto;
-    height: 100%;
-    margin: 0px;
-    padding: 10px 70px;
-}
-
-.container-fluid{
-    width:auto;
-    height: 100%;
-    margin: 0px;
-    padding: 10px 20px;
-}
-
-.box-shadow{
-    box-shadow: -5px 5px 10px 0px  rgba(0,0,0,0.5);
-}
-
-.card{
-    border: 1px solid initial;
-    box-shadow: 0 0 10px inherit;
-    border-radius: 1%;
-    margin: 10px 0px;
-}
-.card-header{
-    padding: 10px 20px;
-}
-
-.btn{
-    padding: 5px 10px;
-    font-size: 1.1rem;
-    outline: none;
-    border: none;
-    margin: 10px 10px;
-    border: 1px solid inherit;
-}
-
-.btn-large{
-    padding: 10px 20px;
-    font-size: 1.3rem;
-}
-
-.btn-raised{
-    box-shadow: -5px 5px 10px 0px  rgba(0,0,0,0.5);
-}
-
 h1,h2,h3,h4,h5,h6{
     margin:0px;
     font-weight: 500;
@@ -73,3 +35,123 @@ h1{
 h2{
     font-size: 2.5em;
 }
+
+h3{
+    font-size: 2em;
+}
+
+h4{
+    font-size: 1.7em;
+}
+
+h5{
+    font-size: 1.2em;
+}
+
+h6{
+    font-size: 0.8em;
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+img{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+}
+
+div{
+    margin: 0px;
+    padding: 0px;
+}
+/*--------x--------- local -----------x---------*/
+
+/*----------------- container --------------------*/
+
+.container{
+    width:auto;
+    height: auto;
+    margin: 0px;
+    padding: 10px 300px;
+}
+
+.container-fluid{
+    width:auto;
+    height: auto;
+    margin: 0px;
+    padding: 10px 20px;
+}
+
+/*--------x--------- container ----------x--------*/
+
+.box-shadow{
+    box-shadow: -5px 5px 10px 0px  rgba(0,0,0,0.5);
+}
+
+/*-------------- card --------------*/
+
+.card{
+    margin: 0px;
+    padding: 0px;
+    border: 1.5px solid #f1f1f1;
+    box-shadow: 0 0 10px inherit;
+}
+.card-footer{
+    padding: 10px 20px;
+    margin:0px;
+}
+.card-body,.card-header{
+    padding: 10px 20px;
+    border-bottom: 2px solid #e6e6e6;
+    margin:0px;
+}
+
+.card-image{
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-content{
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.card-title{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.card-subtitle{
+    font-size:  1.4rem;
+    font-weight: 450;
+}
+
+/*-------x------- card -------x-------*/
+
+/*-------------- button --------------*/
+
+.btn{
+    padding: 8px 15px;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+    border: 1px solid inherit;
+}
+
+.btn-block{
+    width: 100%;
+}
+
+.btn-large{
+    padding: 10px 20px;
+    font-size: 1.3rem;
+}
+
+.btn-raised{
+    box-shadow: -5px 5px 10px 0px  rgba(0,0,0,0.5);
+}
+
+/*-------x------- button -------x-------*/
