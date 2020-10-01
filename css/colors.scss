@@ -109,4 +109,167 @@ $info: #40a8c4;
     background-color: darken($green, 10%);
 }
 
+.bg-lime{
+    background: $lime;
+}
+
+.bg-lime:hover{
+    background: darken($lime, 10%);
+}
+
+.bg-yellow{
+    background-color: $yellow;
+}
+
+.bg-yellow:hover{
+    background-color: darken($yellow,10%);
+}
+
+.bg-amber{
+    background-color: $amber;
+}
+
+.bg-amber:hover{
+    background-color: darken($amber,10%);
+}
+
+.bg-orange{
+    background-color: $orange;
+}
+
+.bg-orange:hover{
+    background-color: darken($orange,10%);
+}
+
+.bg-deep-orange{
+    background-color: $deep-orange;
+}
+
+.bg-deep-orange:hover{
+    background-color: darken($deep-orange,10%);
+}
+
+.bg-grey{
+    background-color: $grey;
+}
+
+.bg-grey:hover{
+    background-color: darken($grey,10%);
+}
+
+.bg-brown
+{
+    background-color: $brown;
+}
+
+.bg-brown:hover
+{
+    background-color: darken($brown,10%);
+}
+
+.bg-light-grey
+{
+    background-color: $grey;
+}
+
+.bg-light-grey:hover
+{
+    background-color: darken($grey,10%);
+}
+
+.bg-default
+{
+    background-color:$default;
+}
+
+.bg-default:hover
+{
+    background-color: darken($default,10%);
+}
+
+.bg-black
+{
+    background-color:$black;
+}
+
+.bg-black:hover
+{
+    background-color: darken($black,10%);
+}
+
+.bg-white
+{
+    background-color:$white;
+}
+
+.bg-white:hover
+{
+    background-color: darken($white,10%);
+}
+
+.bg-inc-blue
+{
+    background-color:$inc-blue;
+}
+
+.bg-inc-blue:hover
+{
+    background-color: darken($inc-blue,10%);
+}
+
+.bg-dark
+{
+    background-color:$dark
+}
+
+.bg-primary
+{
+    background-color: $primary;
+}
+
+.bg-primary:hover
+{
+    background-color: darken($primary,10%);
+}
+
+.bg-warning
+{
+    background-color: $warning;
+}
+
+.bg-warning:hover
+{
+    background-color: darken($warning,10%);
+}
+
+.bg-success
+{
+    background-color: $success;
+}
+
+.bg-success:hover
+{
+    background-color: darken($success,10%);
+}
+
+.bg-danger
+{
+    background-color: $danger;
+}
+
+.bg-danger:hover
+{
+    background-color: darken($danger,10%);
+}
+
+.bg-info
+{
+    background-color: $info;
+}
+
+.bg-info:hover
+{
+    background-color: darken($info,10%);
+}
+
 /*---------------x-------------- Background colors ------------------x-------------*/
